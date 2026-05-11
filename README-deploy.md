@@ -4,10 +4,9 @@
 
 ## 포함 파일
 
-- `index.html` — 메인 홈페이지. 카카오톡 QR 이미지는 HTML 내부에 직접 삽입되어 있어 이미지 경로 문제 없이 표시됩니다.
+- `index.html` — 메인 홈페이지. 카카오톡 QR 이미지는 HTML 내부에 직접 삽입되어 있어 이미지 경로 문제 없이 표시됩니다. 상담 입력 폼은 제거하고 카카오톡 중심으로 정리했습니다.
 - `robots.txt` — 검색엔진 크롤링 허용 및 sitemap 위치 안내.
 - `sitemap.xml` — Google Search Console 제출용 사이트맵.
-- `assets/kakao-ljmuskorea-qr.png` — 카카오톡 QR 원본 백업 파일.
 
 ## 현재 반영 정보
 

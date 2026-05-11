@@ -160,9 +160,9 @@
     .lead{max-width:720px;margin:26px 0 0;color:var(--text);font-size:20px;line-height:1.72;letter-spacing:-.02em}
     .lead b{color:var(--navy)}
     .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
-    .mini{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
-    .mini span{padding:9px 13px;border-radius:999px;background:rgba(255,255,255,.72);border:1px solid var(--line);color:#596170;font-size:14px;font-weight:850}
-    .hero-note{margin-top:24px;color:#6d5c36;font-size:13px;font-weight:750}
+    .expertise-note{margin-top:28px;padding:17px 19px;border-left:3px solid var(--gold);background:rgba(255,255,255,.62);border-radius:18px;color:#4c586b;max-width:660px}
+    .expertise-note strong{display:block;margin-bottom:5px;color:var(--navy);font-size:13px;font-weight:950;letter-spacing:.12em;text-transform:uppercase}
+    .expertise-note span{display:block;font-size:15px;font-weight:800;letter-spacing:-.025em}
 
     .showcase{position:relative;overflow:hidden;border-radius:38px;background:linear-gradient(160deg,#07162c 0%,#102b52 70%,#061529 100%);color:#fff;padding:32px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.10)}
     .showcase:before{content:"ZION";position:absolute;right:-18px;top:12px;font-size:108px;line-height:1;font-weight:950;letter-spacing:-.08em;color:rgba(255,255,255,.055)}
@@ -176,9 +176,9 @@
     .showcase .fine{position:relative;margin:16px 0 0;color:rgba(255,255,255,.58);font-size:13px}
 
     .quick{padding:16px 0 46px;background:#fff}
-    .quick-box{display:grid;grid-template-columns:1.15fr repeat(4,1fr);gap:12px;padding:14px;border-radius:28px;background:#fff;border:1px solid var(--line);box-shadow:0 18px 52px rgba(6,21,41,.10)}
-    .quick-box div{min-height:84px;display:grid;place-items:center;text-align:center;padding:13px;border-radius:20px;background:var(--soft);color:var(--navy);font-weight:950;letter-spacing:-.04em}
-    .quick-box div:first-child{background:linear-gradient(150deg,var(--navy),#173558);color:var(--gold2)}
+    .focus-strip{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:20px 24px;border-radius:28px;background:#fff;border:1px solid var(--line);box-shadow:0 18px 52px rgba(6,21,41,.10)}
+    .focus-strip strong{color:var(--navy);font-size:14px;font-weight:950;letter-spacing:.12em;text-transform:uppercase;white-space:nowrap}
+    .focus-strip span{color:#4e5b70;font-size:16px;font-weight:850;letter-spacing:-.03em}
 
     section{padding:76px 0}
     .soft{background:linear-gradient(180deg,rgba(6,21,41,.035),rgba(255,255,255,.12))}
@@ -229,10 +229,20 @@
     .step p{margin:0;color:var(--muted)}
 
     .contact{padding-bottom:88px;background:linear-gradient(180deg,#fff,#fbf2df)}
-    .contact-box{display:grid;grid-template-columns:.88fr 1.12fr;gap:28px;padding:32px;border-radius:38px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+    .contact-box{display:grid;grid-template-columns:.9fr 1.1fr;gap:28px;padding:32px;border-radius:38px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
     .contact-info{border-radius:30px;padding:30px;background:var(--navy);color:#fff}
     .contact-info h2{margin:0 0 14px;font-size:38px;letter-spacing:-.065em}
     .contact-info p{margin:0 0 24px;color:rgba(255,255,255,.75)}
+    .contact-guide{border-radius:30px;padding:32px;background:linear-gradient(180deg,#fff,#fbf5e8);border:1px solid rgba(6,21,41,.10)}
+    .contact-guide h2{margin:0 0 14px;color:var(--navy);font-size:36px;line-height:1.15;letter-spacing:-.06em}
+    .contact-guide p{margin:0 0 20px;color:#5b667a}
+    .contact-guide .qr-card{margin-top:18px;background:#fff;border:1px solid rgba(6,21,41,.10);box-shadow:0 16px 42px rgba(6,21,41,.08)}
+    .contact-guide .qr-card h3{color:var(--navy)}
+    .contact-guide .qr-card p{color:#5b667a}
+    .contact-guide .kakao-id{background:#f4f6fa;border:1px solid rgba(6,21,41,.10);color:var(--navy)}
+    .contact-guide .copy-msg{color:#a7772e}
+    .contact-tips{display:grid;gap:10px;margin-top:18px;padding:18px;border-radius:22px;background:rgba(198,154,67,.10);color:#5f4a18;font-size:14px;font-weight:800}
+    .contact-tips span:before{content:"· ";font-weight:950}
     .line{padding:16px 0;border-top:1px solid rgba(255,255,255,.13)}
     .line small{display:block;color:var(--gold2);font-weight:950;margin-bottom:4px}
     .line strong{font-size:17px;letter-spacing:-.02em}
@@ -260,10 +270,10 @@
     .right a{color:#fff;font-weight:800;text-decoration:underline;text-decoration-color:rgba(255,255,255,.28);text-underline-offset:4px}
 
     @media(max-width:960px){
-      .nav{align-items:flex-start;flex-direction:column;padding:16px 0}.brand{min-width:0}nav{width:100%;overflow:auto;padding-bottom:4px}.hero-grid,.split,.contact-box,.result-hero{grid-template-columns:1fr}.quick-box,.grid3,.statline{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.showcase:before{font-size:82px}.foot{flex-direction:column}.right{text-align:left}.contact-info{order:2}
+      .nav{align-items:flex-start;flex-direction:column;padding:16px 0}.brand{min-width:0}nav{width:100%;overflow:auto;padding-bottom:4px}.hero-grid,.split,.contact-box,.result-hero{grid-template-columns:1fr}.grid3,.statline{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}.showcase:before{font-size:82px}.foot{flex-direction:column}.right{text-align:left}.contact-info{order:2}
     }
     @media(max-width:580px){
-      .wrap{width:min(100% - 28px,1180px)}.top .wrap{padding:8px 0}.hero{padding-top:48px}h1{font-size:43px}.lead{font-size:17px}.actions .btn{width:100%}.quick-box,.grid3,.statline,.row{grid-template-columns:1fr}.wordmark{width:64px}.contact-box{padding:18px}.contact-info{padding:24px}.showcase{padding:24px;border-radius:30px}.result-strip{grid-template-columns:1fr}.ivy h3{font-size:40px}.kakao-id{align-items:flex-start;flex-direction:column}.copy-btn{width:100%}
+      .wrap{width:min(100% - 28px,1180px)}.top .wrap{padding:8px 0}.hero{padding-top:48px}h1{font-size:43px}.lead{font-size:17px}.actions .btn{width:100%}.grid3,.statline{grid-template-columns:1fr}.wordmark{width:64px}.contact-box{padding:18px}.contact-info{padding:24px}.showcase{padding:24px;border-radius:30px}.result-strip{grid-template-columns:1fr}.ivy h3{font-size:40px}.kakao-id{align-items:flex-start;flex-direction:column}.copy-btn{width:100%}
     }
   </style>
 </head>
@@ -288,7 +298,7 @@
         <a href="#strategy">전략</a>
         <a href="#contact">상담문의</a>
       </nav>
-      <a class="btn" href="#contact">상담 양식 작성</a>
+      <a class="btn" href="#contact">카카오톡 상담 안내</a>
     </div>
   </header>
 
@@ -300,11 +310,10 @@
           <h1>학생의 가능성을<br><em>합격 전략</em>으로 바꾸는 유학 컨설팅</h1>
           <p class="lead">유학은 단순히 학교를 고르는 일이 아닙니다. <b>성적, 활동, 전공 방향, 가족의 우선순위</b>를 하나의 스토리로 연결해 학생에게 가장 설득력 있는 지원 전략을 만드는 과정입니다.</p>
           <div class="actions">
-            <a class="btn gold" href="mailto:bookkeeping1004@gmail.com">이메일 문의하기</a>
-            <a class="btn light" href="#contact">카카오톡 QR 확인</a>
+            <a class="btn gold" href="#contact">카카오톡 상담 안내</a>
+            <a class="btn light" href="mailto:bookkeeping1004@gmail.com">이메일 주소 확인</a>
           </div>
-          <div class="mini"><span>대학입시</span><span>보딩스쿨</span><span>국제학교</span><span>에세이·인터뷰</span><span>시험·성적 관리</span></div>
-          <p class="hero-note">전화 상담 버튼은 운영하지 않으며, 전화번호는 안내용으로만 표기합니다.</p>
+          <div class="expertise-note"><strong>Consulting Focus</strong><span>대학 입시 · 보딩스쿨 · 국제학교 · 에세이/인터뷰 · 시험 및 성적 관리</span></div>
         </div>
         <aside class="showcase" aria-label="최근 합격 소식 요약">
           <span class="showcase-label">2025–2026 Acceptance Highlights</span>
@@ -320,12 +329,13 @@
     </section>
 
     <div class="quick">
-      <div class="wrap quick-box" aria-label="핵심 서비스">
-        <div>Zion Study Abroad</div>
-        <div>미국·영국 대학 입시</div>
-        <div>보딩스쿨·고등학교</div>
-        <div>국제학교 로드맵</div>
-        <div>에세이·인터뷰</div>
+      <div class="wrap focus-strip" aria-label="전문 컨설팅 분야">
+        <strong>전문 분야</strong>
+        <span>미국·영국 대학 입시</span>
+        <span>보딩스쿨·미국 고등학교</span>
+        <span>국제학교 로드맵</span>
+        <span>에세이·인터뷰</span>
+        <span>시험·성적 관리</span>
       </div>
     </div>
 
@@ -418,11 +428,16 @@
         <div class="contact-box">
           <div class="contact-info">
             <h2>상담 문의</h2>
-            <p>학생의 현재 상황을 알려주시면, 가능한 학교 방향과 준비 우선순위를 먼저 정리해드립니다.</p>
+            <p>상담은 카카오톡 QR 또는 ID를 통해 가장 빠르게 문의하실 수 있습니다.</p>
             <div class="line"><small>전화번호</small><strong>010-2582-3993</strong></div>
             <div class="line"><small>Email</small><strong><a href="mailto:bookkeeping1004@gmail.com">bookkeeping1004@gmail.com</a></strong></div>
             <div class="line"><small>KakaoTalk ID</small><strong>ljmuskorea</strong></div>
             <div class="line"><small>Office</small><strong>서울 서초구 강남대로 381 501호 시온유학원</strong></div>
+          </div>
+          <div class="contact-guide">
+            <p class="kicker">KakaoTalk Consultation</p>
+            <h2>카카오톡으로 학생 상황을 보내주세요.</h2>
+            <p>학생의 현재 학교, 학년, 목표 국가와 희망 학교, 성적/시험 준비 상황을 남겨주시면 상담 방향을 정리해드립니다.</p>
             <div class="qr-card">
               <h3>카카오톡 상담 QR</h3>
               <p>아래 QR 이미지를 스캔하거나 카카오톡 ID <strong>ljmuskorea</strong>로 검색해주세요.</p>
@@ -430,20 +445,13 @@
               <div class="kakao-id"><span>ID: ljmuskorea</span><button class="copy-btn" type="button" id="copyKakao">ID 복사</button></div>
               <div class="copy-msg" id="copyMsg" aria-live="polite"></div>
             </div>
+            <div class="contact-tips" aria-label="상담 전 준비 정보">
+              <span>학생 학년과 현재 학교</span>
+              <span>희망 국가와 관심 학교</span>
+              <span>최근 성적, 시험 점수, 준비 중인 과목</span>
+              <span>궁금한 점이나 가장 걱정되는 부분</span>
+            </div>
           </div>
-          <form id="consultForm">
-            <div class="row">
-              <label>학생 이름<input name="student" type="text" placeholder="예: 홍길동" required></label>
-              <label>학년 / 학교<input name="grade" type="text" placeholder="예: G11 / 국제학교" required></label>
-            </div>
-            <div class="row">
-              <label>연락처<input name="phone" type="text" placeholder="예: 이메일 또는 휴대폰 번호" required></label>
-              <label>관심 분야<select name="program" required><option value="">선택해주세요</option><option>미국 대학 입시</option><option>영국 대학 입시</option><option>보딩스쿨 / 미국 고등학교</option><option>국제학교 입학 / 전학</option><option>ESL / F-1 비자 루트</option><option>시험·성적 관리</option></select></label>
-            </div>
-            <label>상담 내용<textarea name="message" placeholder="목표 국가, 희망 학교, 현재 성적, 시험 점수, 고민되는 부분을 적어주세요."></textarea></label>
-            <button class="btn full" type="submit">이메일로 상담 내용 보내기</button>
-            <p class="form-note">버튼을 누르면 입력한 내용이 이메일 본문으로 정리되어 메일 앱이 열립니다. 카카오톡 상담은 왼쪽 QR 또는 ID를 이용해주세요.</p>
-          </form>
         </div>
       </div>
     </section>
@@ -467,27 +475,6 @@
       }catch(e){
         copyMsg.textContent = 'ID: ljmuskorea';
       }
-    });
-    document.getElementById('consultForm').addEventListener('submit', function(e){
-      e.preventDefault();
-      const data = new FormData(e.currentTarget);
-      const subject = encodeURIComponent('[시온유학원 상담문의] ' + (data.get('student') || '학생'));
-      const body = encodeURIComponent(
-        '학생 이름: ' + (data.get('student') || '') + '
-' +
-        '학년 / 학교: ' + (data.get('grade') || '') + '
-' +
-        '연락처: ' + (data.get('phone') || '') + '
-' +
-        '관심 분야: ' + (data.get('program') || '') + '
-' +
-        '카카오톡 ID 안내: ljmuskorea' + '
-
-' +
-        '상담 내용:
-' + (data.get('message') || '')
-      );
-      window.location.href = 'mailto:bookkeeping1004@gmail.com?subject=' + subject + '&body=' + body;
     });
   </script>
 </body>
