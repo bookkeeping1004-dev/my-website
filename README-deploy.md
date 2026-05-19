@@ -1,66 +1,46 @@
-# Zion Study Abroad / 시온유학원 배포 메모
+# Zion Study Abroad GitHub Pages 배포 가이드
 
-이 패키지는 GitHub Pages 주소 기준으로 SEO URL이 정리된 최종본입니다.
+이 폴더의 파일을 GitHub 저장소 `my-website` 루트에 업로드하면 됩니다.
 
-## 적용된 실제 공개 주소
+## 기준 주소
 
-```text
 https://bookkeeping1004-dev.github.io/my-website/
-```
 
-## GitHub Pages 업로드 방법
+## 업로드해야 하는 파일
 
-1. 이 ZIP 파일을 다운로드합니다.
-2. 압축을 풉니다.
-3. `index.html`, `robots.txt`, `sitemap.xml`, `assets/`, `.nojekyll` 파일/폴더가 repository의 루트에 오도록 업로드합니다.
-4. GitHub repository 이름이 `my-website`이고 Pages가 활성화되어 있으면 아래 주소로 접속됩니다.
+- index.html
+- about.html
+- results.html
+- testimonials.html
+- college-admissions.html
+- boarding-school.html
+- international-school.html
+- apush-dbq-guide.html
+- ap-gov-frq-guide.html
+- sat-ssat-guide.html
+- gpa-management.html
+- faq-contact.html
+- sitemap.xml
+- robots.txt
+- .nojekyll
+- assets/site.css
+- assets/og-image.png
+- assets/kakao-ljmuskorea-qr.png
 
-```text
-https://bookkeeping1004-dev.github.io/my-website/
-```
+## 배포 후 확인
 
-## SEO URL 반영 위치
+1. `https://bookkeeping1004-dev.github.io/my-website/` 접속
+2. `https://bookkeeping1004-dev.github.io/my-website/sitemap.xml` 접속: XML이 바로 보여야 합니다.
+3. `https://bookkeeping1004-dev.github.io/my-website/robots.txt` 접속: Sitemap 주소가 보여야 합니다.
+4. Search Console에서 URL prefix로 `https://bookkeeping1004-dev.github.io/my-website/` 등록
+5. sitemap 제출: `https://bookkeeping1004-dev.github.io/my-website/sitemap.xml`
+6. URL 검사에서 홈과 주요 자료 페이지를 색인 요청
 
-아래 파일들은 모두 GitHub Pages 주소 기준으로 업데이트되었습니다.
+## 주요 SEO 구조
 
-```text
-index.html
-robots.txt
-sitemap.xml
-GOOGLE-SEO-CHECKLIST.md
-```
-
-반영된 주요 URL:
-
-```text
-Canonical: https://bookkeeping1004-dev.github.io/my-website/
-OG URL: https://bookkeeping1004-dev.github.io/my-website/
-OG Image: https://bookkeeping1004-dev.github.io/my-website/assets/og-image.png
-Sitemap: https://bookkeeping1004-dev.github.io/my-website/sitemap.xml
-Robots: https://bookkeeping1004-dev.github.io/my-website/robots.txt
-```
-
-## Google Search Console 제출
-
-GitHub Pages 배포 후 Search Console에서 URL prefix 방식으로 아래 주소를 등록합니다.
-
-```text
-https://bookkeeping1004-dev.github.io/my-website/
-```
-
-그 다음 sitemap 제출란에 아래 주소를 제출합니다.
-
-```text
-https://bookkeeping1004-dev.github.io/my-website/sitemap.xml
-```
-
-URL 검사 도구에서는 아래 메인 URL을 검사하고 색인 요청을 진행합니다.
-
-```text
-https://bookkeeping1004-dev.github.io/my-website/
-```
-
-## 주의
-
-- GitHub Pages는 repository 이름이 URL 경로가 되므로 `/my-website/` 경로를 유지해야 합니다.
-- 나중에 커스텀 도메인을 연결하면 `index.html`, `robots.txt`, `sitemap.xml` 안의 URL을 새 도메인으로 다시 바꾸면 됩니다.
+- 12개 주요 페이지
+- 페이지별 고유 title/description/canonical
+- sitemap.xml에 모든 URL 포함
+- robots.txt에서 크롤링 허용
+- 내부 링크와 관련 페이지 링크 강화
+- FAQPage, Article, BreadcrumbList, EducationalOrganization 구조화 데이터 포함

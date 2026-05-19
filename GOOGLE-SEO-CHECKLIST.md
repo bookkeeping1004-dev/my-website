@@ -1,57 +1,38 @@
-# Google SEO 체크리스트 — 시온유학원 / Zion Study Abroad
+# Google SEO 체크리스트
 
-이 체크리스트는 현재 GitHub Pages 공개 주소 기준입니다.
+## 1. 기술 확인
 
-```text
-https://bookkeeping1004-dev.github.io/my-website/
-```
+- [ ] `https://bookkeeping1004-dev.github.io/my-website/` 정상 접속
+- [ ] `https://bookkeeping1004-dev.github.io/my-website/sitemap.xml` 정상 접속 및 404 없음
+- [ ] sitemap 내부 `<loc>`가 `https://bookkeeping1004-dev.github.io/my-website/` 기준인지 확인
+- [ ] `https://bookkeeping1004-dev.github.io/my-website/robots.txt` 정상 접속
+- [ ] Search Console URL prefix 등록
+- [ ] sitemap 제출
+- [ ] URL Inspection에서 홈/주요 페이지 색인 요청
 
-## 1. 배포 확인
+## 2. 콘텐츠 확인
 
-- [ ] 메인 페이지 접속: `https://bookkeeping1004-dev.github.io/my-website/`
-- [ ] robots.txt 접속: `https://bookkeeping1004-dev.github.io/my-website/robots.txt`
-- [ ] sitemap.xml 접속: `https://bookkeeping1004-dev.github.io/my-website/sitemap.xml`
-- [ ] OG 이미지 접속: `https://bookkeeping1004-dev.github.io/my-website/assets/og-image.png`
+- [ ] About 페이지에 대표 컨설턴트 프로필 공개 범위 확인
+- [ ] Results 페이지의 합격 소식 공개 범위 확인
+- [ ] Testimonials 페이지의 익명 피드백 표현 확인
+- [ ] APUSH/AP Gov/SAT/SSAT/GPA 자료 페이지 내용 확인
+- [ ] 카카오톡 QR 및 ID `ljmuskorea` 확인
 
-## 2. Search Console 등록
+## 3. 외부 발견 신호
 
-- [ ] Google Search Console에서 URL prefix 방식으로 등록
-- [ ] 등록 URL: `https://bookkeeping1004-dev.github.io/my-website/`
-- [ ] 소유권 인증 완료
+- [ ] 네이버 블로그에 시온유학원 소개 글 작성 후 사이트 링크
+- [ ] Medium 또는 브런치에 APUSH/SAT/SSAT 자료 글 작성 후 사이트 링크
+- [ ] 명함/문자/카카오톡 프로필에 URL 추가
+- [ ] 학부모에게 보낼 안내문에 URL 추가
 
-## 3. Sitemap 제출
+## 4. 장기 콘텐츠 계획
 
-- [ ] sitemap 제출 주소: `https://bookkeeping1004-dev.github.io/my-website/sitemap.xml`
-- [ ] 제출 후 상태가 Success 또는 정상 처리되는지 확인
+- APUSH DBQ 예시 답안
+- AP Gov Required Cases 정리
+- SAT Reading 오답 유형
+- SSAT Vocabulary 어근 자료
+- 국제학교 GPA 관리법
+- 보딩스쿨 인터뷰 질문 리스트
+- Common App Essay 소재 찾기
 
-## 4. URL 검사와 색인 요청
-
-- [ ] URL 검사 도구에서 `https://bookkeeping1004-dev.github.io/my-website/` 검사
-- [ ] 페이지가 접근 가능한지 확인
-- [ ] 색인 생성 요청 진행
-
-## 5. 색인 확인
-
-며칠 후 Google에서 아래처럼 검색합니다.
-
-```text
-site:bookkeeping1004-dev.github.io/my-website/
-```
-
-## 6. 운영하면서 확인할 것
-
-- [ ] 검색어: 시온유학원, Zion Study Abroad, 서초 유학원, 강남 유학원, 미국 대학 입시 컨설팅
-- [ ] 검색 노출 수
-- [ ] 클릭 수
-- [ ] 평균 게재 순위
-- [ ] 모바일 사용성
-
-## 7. 커스텀 도메인 연결 시
-
-커스텀 도메인을 연결하면 아래 파일의 URL을 새 도메인으로 다시 업데이트합니다.
-
-```text
-index.html
-robots.txt
-sitemap.xml
-```
+Google 검색 노출은 보장되지 않습니다. 다만 유용한 콘텐츠, 논리적인 사이트 구조, 내부 링크, sitemap, Search Console 모니터링을 지속하면 검색엔진이 사이트를 이해하기 쉬워집니다.
